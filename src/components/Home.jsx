@@ -11,7 +11,7 @@ const Home = () => {
         <div className='flex justify-center'>
           <p className='text-md py-5 leading-5 text-gray-400 md:text-lg md:w-[800px] '>
           As a current student pursuing Bachelor of Software Engineering degree at OUSL, 
-          I have honed my skills in software development and am excited to bring my enthusiasm for technology to real-world applications.
+          I have sharpened my skills in software development and am excited to bring my enthusiasm for technology to real-world applications.
           </p>
         </div>
       </div>
