@@ -10,8 +10,9 @@ const Home = () => {
         <h3 className='text-2xl py-2 text-white'>Software Engineer.</h3>
         <div className='flex justify-center'>
           <p className='text-md py-5 leading-5 text-gray-400 md:text-lg md:w-[800px] '>
-          As a current student pursuing Bachelor of Software Engineering degree at OUSL, 
-          I have sharpened my skills in software development and am excited to bring my enthusiasm for technology to real-world applications.
+          As a passionate and dedicated software engineer specializing in full-stack development, application development, and mobile app development, 
+          I have a strong foundation in JavaScript, Python, React, Node.js, and Java. I thrive on creating innovative solutions to complex problems. My portfolio showcases a diverse range of projects that demonstrate my expertise in software development, problem-solving skills, 
+          and commitment to continuous learning. Explore my work, learn more about my journey, and feel free to reach out for collaboration or opportunities.
           </p>
         </div>
       </div>
