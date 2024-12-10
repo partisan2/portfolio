@@ -21,7 +21,7 @@ const Home = () => {
         <a href='https://github.com/partisan2' target='blank'><AiFillGithub /></a>
       </div>
       <div className='flex mx-auto items-center justify-center mt-20'>
-        <img src={pic} alt="" className='w-80 h-90 size-fit bg-gradient-to-b from-teal-500 rounded-full' />
+        <img src={pic} alt="" className='w-80 h-80 size-fit bg-gradient-to-b from-teal-500 rounded-full' />
       </div>
     </div>
   )
