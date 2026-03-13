@@ -3,7 +3,7 @@ import {moduleList} from './sampleData/moduleList'
 
 const Education = () => {
   return (
-    <div className='min-h-screen flex flex-col justify-center py-20'>
+    <div id='education' className='min-h-screen flex flex-col justify-center py-20'>
         <h3 className='text-3xl text-white px-10 py-10 text-center md:text-start'>EDUCATION.</h3>
       <div className='flex justify-center gap-8 flex-wrap'>
         <div className='mx-10 md:px-10'>
