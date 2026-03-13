@@ -10,15 +10,20 @@ const Home = () => {
         <h3 className='text-2xl py-2 text-white'>Aspiring Software Engineer.</h3>
         <div className='flex justify-start'>
           <p className='text-md py-5 leading-7 text-gray-400 md:text-lg md:w-[800px] text-left'>
-          As a passionate and dedicated software engineer specializing in full-stack development, application development, and mobile app development, 
-          I have a strong foundation in JavaScript, Python, React, Node.js, and Java. I thrive on creating innovative solutions to complex problems. My portfolio showcases a diverse range of projects that demonstrate my expertise in software development, problem-solving skills, 
-          and commitment to continuous learning. Explore my work, learn more about my journey, and feel free to reach out for collaboration or opportunities.
+            I'm a software engineering undergraduate with a strong interest in building intelligent, automated systems and intuitive web applications. 
+            I enjoy working at the intersection of backend engineering and AI integration, 
+            where complex data and logic come together to create scalable solutions that solve real-world business problems.
+            <br />
+            <br />
+            Through my development experience, I have worked on a variety of projects ranging from backend systems and automation platforms to full-stack web applications.
+            My work often focuses on integrating modern technologies such as APIs, AI-powered tools, and scalable backend architectures to create systems that are both efficient and user-friendly. Whether developing backend services, designing system workflows, or integrating intelligent automation into applications, 
+            I aim to build software that is reliable, practical, and accessible.
           </p>
         </div>
       </div>
       <div className='text-5xl flex justify-start gap-16 py-3 text-gray-600'>
-        <a href='https://www.linkedin.com/in/vihan-gayathra-50358a218/' target='blank'><AiFillLinkedin /></a>
-        <a href='https://github.com/partisan2' target='blank'><AiFillGithub /></a>
+        <a className="hover:text-[#38BDF8]" href='https://www.linkedin.com/in/vihan-gayathra-50358a218/' target='blank'><AiFillLinkedin /></a>
+        <a className="hover:text-white" href='https://github.com/partisan2' target='blank'><AiFillGithub /></a>
       </div>
       {/* <div className='flex mx-auto items-center justify-center mt-20'>
         <img src={pic} alt="" className='w-80 h-80 size-fit bg-gradient-to-b from-teal-500 rounded-full' />

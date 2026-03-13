@@ -50,8 +50,8 @@ const Navbar = () => {
             <li key={link.id} className='w-full text-left'>
               <button
                 onClick={() => scrollToSection(link.id)}
-                className={`text-lg transition-all duration-300 hover:text-teal-400 ${
-                  activeSection === link.id ? 'text-teal-400 font-bold translate-x-2' : 'text-gray-400'
+                className={`text-lg transition-all duration-300 hover:text-white ${
+                  activeSection === link.id ? 'text-white font-bold translate-x-2' : 'text-gray-400'
                 }`}
               >
                 {link.name}
@@ -62,7 +62,7 @@ const Navbar = () => {
 
         <ul className='flex items-start'>
           <li>
-            <a className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md' href={resume} target='blank'>Resume</a>
+            <a className='bg-[#38BDF8] text-white px-4 py-2 rounded-md' href={resume} target='blank'>Resume</a>
           </li>
         </ul>
       </div>
