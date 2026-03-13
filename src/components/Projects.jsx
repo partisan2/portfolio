@@ -4,7 +4,7 @@ import {projectList} from './sampleData/moduleList'
 const Projects = () => {
     // console.log(projectList?.map(Item => ({name : Item.projectName,tools :Item.projectTools})))
   return (
-    <div className='mt-20'>
+    <div className='min-h-screen flex flex-col justify-center py-20'>
         <h3 className='text-3xl text-white px-10 py-10 text-center md:text-start'>PROJECTS.</h3>
       <div className='flex justify-between flex-wrap mx-10 py-10'>
             {projectList?.map((el,index)=>{

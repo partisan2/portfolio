@@ -23,7 +23,8 @@ const Contact = () => {
           );
       };
   return (
-    <div className='mt-20 flex justify-around flex-wrap'>
+    <div className='min-h-screen flex flex-col justify-center py-20'>
+      <div className='flex justify-around flex-wrap'>
       <div className='mx-10'>
         <h2 className='text-teal-600 text-3xl py-4'>CONTACT.</h2>
         <div className='py-10 px-10'>
@@ -45,6 +46,7 @@ const Contact = () => {
         <h4 className='text-gray-400'><a href='https://github.com/partisan2' target='blank'>Partisan2</a></h4>
       </div>
     </div>
+  </div>
   )
 }
 
