@@ -8,9 +8,14 @@ const Contact = () => {
         e.preventDefault();
     
         emailjs
-          .sendForm('service_54nilxj', 'template_ayj1sfn', form.current, {
-            publicKey: 'Ocnu4mOyihZ8RunYU',
-          })
+          .sendForm(
+            process.env.REACT_APP_EMAILJS_SERVICE_ID,
+            process.env.REACT_APP_EMAILJS_TEMPLATE_ID,
+            form.current,
+            {
+              publicKey: process.env.REACT_APP_EMAILJS_PUBLIC_KEY,
+            }
+          )
           .then(
             () => {
               console.log('SUCCESS!');
@@ -24,29 +29,35 @@ const Contact = () => {
       };
   return (
     <div id='contact' className='flex flex-col justify-center py-20'>
-      <div className='flex justify-around flex-wrap'>
-      <div className='mx-10'>
-        <h2 className='text-teal-600 text-3xl py-4'>CONTACT.</h2>
-        <div className='py-10 px-10'>
-            <form ref={form} onSubmit={sendEmail}>
-                <input type="text" placeholder='Name' name="name" className='p-5 my-2 rounded-md block md:w-[300px]' required/>
-                <input type="text" placeholder='Email' name='email' className='p-5 my-2 rounded-md block md:w-[300px]' required/>
-                <input type="text" placeholder='Phone' name='email' className='p-5 my-2 rounded-md block md:w-[300px]'/>
-                <textarea type="text" name='message' placeholder='Message' className='p-5 my-2 rounded-md block' cols={33} rows={10} required></textarea>
-                <button className='text-white bg-gradient-to-r from-teal-600 to-cyan-500 px-5 py-3 rounded-lg mt-2'>SEND</button>
-            </form>
+      <h3 className='text-3xl text-white px-10 py-10 text-center md:text-start'>CONTACT.</h3>
+      <div className='flex justify-start flex-wrap gap-10 md:gap-20 px-10'>
+        <div className=''>
+          <div className='py-4'>
+              <form ref={form} onSubmit={sendEmail}>
+                  <input type="text" placeholder='Name' name="name" className='p-5 my-2 rounded-md block md:w-[400px] bg-[#1E293B] text-white border border-slate-700' required/>
+                  <input type="text" placeholder='Email' name='email' className='p-5 my-2 rounded-md block md:w-[400px] bg-[#1E293B] text-white border border-slate-700' required/>
+                  <input type="text" placeholder='Phone' name='phone' className='p-5 my-2 rounded-md block md:w-[400px] bg-[#1E293B] text-white border border-slate-700'/>
+                  <textarea name='message' placeholder='Message' className='p-5 my-2 rounded-md block md:w-[400px] bg-[#1E293B] text-white border border-slate-700' cols={33} rows={8} required></textarea>
+                  <button className='text-white bg-gradient-to-r from-teal-600 to-cyan-500 px-8 py-3 rounded-lg mt-4 font-bold hover:scale-105 transition-transform'>SEND MESSAGE</button>
+              </form>
+          </div>
+        </div>
+        <div className='flex flex-col justify-start'>
+          <div className='mb-10'>
+            <h3 className='text-[#38BDF8] text-xl font-semibold'>EMAIL</h3>
+            <h4 className='text-gray-400 mt-1 hover:text-white transition-colors'><a href="mailto:vihan19gayathra@gmail.com">vihan19gayathra@gmail.com</a></h4>
+          </div>
+          <div className='mb-10'>
+            <h3 className='text-[#38BDF8] text-xl font-semibold'>LINKEDIN</h3>
+            <h4 className='text-gray-400 mt-1 hover:text-white transition-colors'><a href='https://www.linkedin.com/in/vihan-gayathra-50358a218/' target='blank'>Vihan Gayathra</a></h4>
+          </div>
+          <div className='mb-10'>
+            <h3 className='text-[#38BDF8] text-xl font-semibold'>GITHUB</h3>
+            <h4 className='text-gray-400 mt-1 hover:text-white transition-colors'><a href='https://github.com/partisan2' target='blank'>Partisan2</a></h4>
+          </div>
         </div>
       </div>
-      <div className='py-30 md:mt-10'>
-        <h3 className='text-teal-300 text-2xl pt-10'>EMAIL</h3>
-        <h4 className='text-gray-400'>vihan19gayathra@gmail.com</h4>
-        <h3 className='text-teal-300 text-2xl pt-10'>LINKEDIN</h3>
-        <h4 className='text-gray-400'><a href='https://www.linkedin.com/in/vihan-gayathra-50358a218/' target='blank'>Vihan Gayathra</a></h4>
-        <h3 className='text-teal-300 text-2xl pt-10'>GITHUB</h3>
-        <h4 className='text-gray-400'><a href='https://github.com/partisan2' target='blank'>Partisan2</a></h4>
-      </div>
     </div>
-  </div>
   )
 }
 

@@ -91,7 +91,7 @@ export const projectList = [
     {
         id:1,
         projectName:"Railway Season Ticket Issuance System",
-        projectDiscription:"Calculate price of cab serice based on vehicle type, number of passengers and payload.",
+        projectDiscription:"Full-stack web app using Spring Boot & React JS to automate railway season ticket applications. Features an AI-powered Chatbot for real-time user assistance and secure REST APIs.",
         projectTools:[
             {
                 tool:"Ract JS"
@@ -108,7 +108,7 @@ export const projectList = [
     {
         id:2,
         projectName:"eBook App",
-        projectDiscription:"ebook app for library using react native where user can view book information.",
+        projectDiscription:"Cross-platform mobile app for libraries, allowing users to browse and view detailed book information on mobile devices.",
         projectTools:[
             {
                 tool:"Ract Native"
@@ -122,7 +122,7 @@ export const projectList = [
     {
         id:3,
         projectName:"Parent, Teacher Collabaration App",
-        projectDiscription:"Platform to communicate between teachers and parents. ",
+        projectDiscription:"Real-time communication platform bridging teachers and parents for tracking student progress. Built with Firebase Cloud Firestore for instant messaging and live data sync.",
         projectTools:[
             {
                 tool:"Ract JS"
