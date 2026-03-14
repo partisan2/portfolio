@@ -9,7 +9,7 @@ const Home = () => {
   const [init, setInit] = useState(false);
 
   const [text] = useTypewriter({
-    words: ['React','Node JS','Express JS', 'Java', 'Spring Boot','Python', 'Automation Tools'],
+    words: ['React JS','Node JS','Express JS', 'Java', 'Spring Boot','Python', 'Automation Tools'],
     loop: 0,
     typeSpeed: 70,
     deleteSpeed: 50,
