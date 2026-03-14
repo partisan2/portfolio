@@ -90,50 +90,25 @@ export const moduleList = [
 export const projectList = [
     {
         id:1,
-        projectName:"Tourism Web Site",
-        projectDiscription:"Web Site for display details about Sri Lanka.",
+        projectName:"Railway Season Ticket Issuance System",
+        projectDiscription:"Full-stack web app using Spring Boot & React JS to automate railway season ticket applications. Features an AI-powered Chatbot for real-time user assistance and secure REST APIs.",
         projectTools:[
             {
-                tool:"HTML"
+                tool:"Ract JS"
             },
             {
-                tool:"CSS"
+                tool:"Tailwind CSS"
             },
             {
-                tool:"Js"
-            },
-            {
-                tool:"Vue JS"
+                tool:"Spring Boot"
             },
 
         ]
     },
     {
         id:2,
-        projectName:"Cab Service System",
-        projectDiscription:"Calculate price of cab serice based on vehicle type, number of passengers and payload.",
-        projectTools:[
-            {
-                tool:"Python"
-            },
-
-        ]
-    },
-    {
-        id:3,
-        projectName:"Employee Salary System",
-        projectDiscription:"Calculate Employee salary using java oop concepts.",
-        projectTools:[
-            {
-                tool:"Java"
-            },
-
-        ]
-    },
-    {
-        id:4,
         projectName:"eBook App",
-        projectDiscription:"ebook app for library using react native where user can view book information.",
+        projectDiscription:"Cross-platform mobile app for libraries, allowing users to browse and view detailed book information on mobile devices.",
         projectTools:[
             {
                 tool:"Ract Native"
@@ -145,23 +120,9 @@ export const projectList = [
         ]
     },
     {
-        id:5,
-        projectName:"Web Site",
-        projectDiscription:"Web site front-end for leo club baddegama.",
-        projectTools:[
-            {
-                tool:"Ract JS"
-            },
-            {
-                tool:"CSS"
-            },
-
-        ]
-    },
-    {
-        id:6,
+        id:3,
         projectName:"Parent, Teacher Collabaration App",
-        projectDiscription:"Platform to communicate between teachers and parents. (Group project)",
+        projectDiscription:"Real-time communication platform bridging teachers and parents for tracking student progress. Built with Firebase Cloud Firestore for instant messaging and live data sync.",
         projectTools:[
             {
                 tool:"Ract JS"
@@ -174,35 +135,34 @@ export const projectList = [
             },
 
         ]
-    },
+    }
+]
+
+export const experienceList = [
     {
-        id:7,
-        projectName:"Crud Forum",
-        projectDiscription:"Web application perform crud opperations using php. ",
-        projectTools:[
-            {
-                tool:"PHP"
-            },
-            {
-                tool:"HTML"
-            },
-            {
-                tool:"CSS"
-            },
+        id: 1,
+        jobTitle: "Trainee Software Engineer",
+        company: "JWare Automation",
+        startDate: "July 2025",
+        endDate: "Dec 2025",
+        description: [
+            "Integrated AI capabilities by developing WhatsApp bots and implementing AI wrappers via APIs",
+            "Implemented secure Stripe payment gateway integration for seamless transactions",
+            "Developed responsive websites and web applications with cross-device compatibility",
+            "Built custom software applications tailored to specific business challenges"
         ]
     },
     {
-        id:8,
-        projectName:"Employee Management System",
-        projectDiscription:"Application perform task to manage employee details ",
-        projectTools:[
-            {
-                tool:"Java"
-            },
-            {
-                tool:"Hibernate"
-            },
+        id: 2,
+        jobTitle: "Intern Software Engineer",
+        company: "JWare Automation",
+        startDate: "Jan 2025",
+        endDate: "July 2025",
+        description: [
+            "Developed robust backends, infrastructure, and database schemas using Node JS, MySQL",
+            "Collaborated with cross-functional teams in an agile environment",
+            "Presented technical solutions directly to clients"
         ]
-    },
+    }
 ]
 
