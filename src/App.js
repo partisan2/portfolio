@@ -4,6 +4,7 @@ import Home from './components/Home';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Education from './components/Education';
+import Experience from './components/Experience';
 
 function App() {
   return (
@@ -13,8 +14,9 @@ function App() {
       </div>
       <div className='flex-1'>
         <Home />
+        <Experience/>
         <Projects />
-        <Education />
+        {/* <Education /> */}
         <Contact />
       <h5 className='text-white text-center py-6'>© 2024 Vihan Gayathra</h5>
       </div>

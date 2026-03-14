@@ -6,15 +6,15 @@ const Navbar = () => {
   const [activeSection, setActiveSection] = useState('home');
 
   const navLinks = [
-    { name: 'Home', id: 'home' },
-    { name: 'Projects', id: 'projects' },
-    { name: 'Education', id: 'education' },
-    { name: 'Contact', id: 'contact' },
+    { name: 'HOME', id: 'home' },
+    { name: 'EXPERIENCE', id: 'experience' },
+    { name: 'PROJECTS', id: 'projects' },
+    { name: 'CONTACT', id: 'contact' },
   ];
 
   useEffect(() => {
     const handleScroll = () => {
-      const sections = ['home', 'projects', 'education', 'contact'];
+      const sections = ['home', 'projects', 'experience', 'contact'];
       const scrollPosition = window.scrollY + 100; // Offset for better detection
 
       for (const section of sections) {

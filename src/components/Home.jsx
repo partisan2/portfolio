@@ -4,7 +4,7 @@ import pic from './image.png'
 
 const Home = () => {
   return (
-    <div id='home' className='min-h-screen flex flex-col justify-center px-10 md:px-20'>
+    <div id='home' className='flex flex-col justify-center px-10 md:px-20'>
       <div className='text-left py-10'>
         <h2 className='text-5xl py-2 text-white font-medium'>Vihan Gayathra</h2>
         <h3 className='text-2xl py-2 text-white'>Aspiring Software Engineer.</h3>
